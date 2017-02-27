@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* 头部*/
+header
+{
+	padding:10px 0;
+}
+header h2
+{ 
+display: inline-block;
+	height: 43px;
+	line-height: 43px;
+	margin-left: 6px;
+	font-size:32px;
+	font-weight: bold;
+}

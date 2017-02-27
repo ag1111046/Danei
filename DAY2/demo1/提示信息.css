@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 提示信息*/
+p,info,p,error,p,ok
+{
+	float: left;
+	color:#000;
+	font-size: 12px;
+	height: 35px;
+	background: url(images/info.jpg)no-repeat 2px center;
+	padding-left: 20px;
+	margin: 0px;
+}
+p.error
+{
+	color:#FF3F13
+		background:url(images/error.jpg)no-repeat 2px center;
+}
+p.ok
+{background:url(images/ok.jpg) no-repeat 2px center;}

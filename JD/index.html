@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JD:register</title>
+	<style type="text/css">
+		body{margin:0;}
+		.head-box{height: 110px;background: url(images/headbg.jpg) repeat-x left bottom;;}
+		.head{width: 1210px;height: 110px;margin:0 auto;}
+		.head .logo{width: 160px;height: 50px;float: left;margin-top: 24px;background-image: url(images/icon.png);background-repeat: no-repeat;}
+		.head .title{float: left;height: 34px;line-height: 34px;color: #333;padding-left: 30px;margin-top: 34px;font-size: 24px;}
+		.head .sign{float: right;font-size: 16px;margin-top: 55px;color: #999;}
+		.head .sign a{}
+	  	.body-box{height: 623px;width: 1210px;margin: 0px;font-size: 14px;}
+	  	.body-box .body{width: 830px;height: 623px;}
+		.body-box .username-box,
+		.body-box .password-box,
+		.body-box .tellyanzhengma-box,
+		.body-box .password-box2,
+		.body-box .tellphone-box,{height: 54px;width: 400px;}
+		.body-box .username-box .username,
+		.body-box .password-box .password,
+		.body-box .password-box2 .password2,
+		.body-box .tellphone-box .tellphone{height:52 ;width: 110px;}
+		.body-box .username-box .username .input,
+		.body-box .password-box .password .input,
+		.body-box .password-box2 .password2 .input,
+		.body-box .tellphone-box2 .tellphone .input{height: 46px;width: 210px;}
+		.bth-register {width: 106px;height: 36px;border: 1px;background-color:#f4f4f4;margin-left: 5px; }
+
+	</style>
+</head>
+<body>
+<div class="head-box">
+	<div class="head">
+		<div class="logo"></div>
+		<div class="title">立即注册</div>
+		<div class="sign">已有账号？ 请<a href="#">登录</a></div>
+	</div>
+</div>
+	<div class="body-box">
+			<div class="body">
+				<div class="username-box">
+					<div class="username">用户名</div>
+					<input type="text" maxlength="20" autocomplete="off">
+				</div>
+				<div class="password-box">
+					<div class="password">设置密码</div>
+						<input type="text">
+				</div>
+					<div class="password-box2">
+					<div class="password2">确认密码</div>
+						<input type="text">
+				</div
+				<div class="tellphone-box">
+					<div class="tellphone">中国大陆10086</div>
+					<input type="text">
+				<div class="yanzhengma-box">
+					<div class="yanzhengma">验证码</div>
+					<input type="text">
+				</div>
+				<div class="tellyanzhengma-box">
+					<div class="tellyanzhengma">手机验证码</div>
+					<input type="text">
+				</div>
+					<div class="tyydbox">
+					<div class="tyyd"><input type="checkbox">同意并阅读</div>
+					<a href="#">京东用户注册协议</a>
+					<a href="#">隐私政策</a>
+				</div>
+					<button type="submit" class="btn-register">立即注册</button>
+			</div>
+	</div>
+</body>
+</html>

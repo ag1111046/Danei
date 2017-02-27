@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* 注册 */
+label[for="check_agree"]
+{
+	font-size:12px;
+	line-height: 36px;
+}
+label[for="check_agree"]a
+{
+	color:#FF5B20;
+	text-decoration: none;
+}
+label[for="check_agree"]a:hover
+{
+	text-decoration: underline;
+}
+input.btn_regis_next
+{
+	width:180px;
+	height: 36px;
+	padding: 0 20px;
+	color:#fff;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	background: #ff4001;
+	border: none;
+	border-radius:3px;
+}

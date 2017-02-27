@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*手机号码相关*/
+div.molile_info,div.code_info
+{font-size:14px;
+line-height: 36px;
+	float:left;
+}
+div,mobile_info span
+{
+	float:left;
+	width: 60px;
+	height: 35px;
+	line-height: 35px;
+	background-color:#ededed;
+	color:#999;
+	text-align:center;
+	border:1px solid #dedede;
+	border-right: 0;
+}
+div,mobile_info input
+{
+	padding-left: 5px;
+	border: 1px solid #dedede;
+	width:162px;
+	height:33px;
+	line-height: 33px;
+}

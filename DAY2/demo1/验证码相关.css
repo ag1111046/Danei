@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* 验证码相关 */
+div.code_info input
+{
+	padding-left:5px;
+	border:1px solid #dedede;
+	width: 122px;
+	height:33px;
+	line-height: 33px
+	
+}
+div.code_info img
+{
+	vertical-align:middle;
+}
